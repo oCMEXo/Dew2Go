@@ -1,6 +1,6 @@
 import { CheckCircle2 } from "lucide-react"
 
-export function ServicesSection() {
+export  default function ServicesSection() {
     const services = [
         "Faster Hiring Process",
         "Cost-Effectiveness",

@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom"
-import { Button } from "../Component/ui/button.tsx"
+import  Button  from "../Component/ui/button"
 
-export function Header() {
+export default function Header() {
     return (
         <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
             <div className="container mx-auto px-6 lg:px-12">

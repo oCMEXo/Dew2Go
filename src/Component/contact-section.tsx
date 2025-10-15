@@ -1,8 +1,8 @@
-// import { Button } from "@/components/ui/button"
+import  Button  from "./ui/button"
 import { MapPin, Phone, Mail } from "lucide-react"
 // import React from "react"
 
-export function ContactSection() {
+export default function ContactSection() {
     return (
         <section id="contact" className="bg-white py-20 lg:py-28">
             <div className="container mx-auto px-6 lg:px-12">

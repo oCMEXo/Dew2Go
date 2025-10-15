@@ -1,7 +1,7 @@
 // import Image from "next/image"
-import { Mail } from "lucide-react"
+import {Mail} from "lucide-react"
 
-export function TeamSection() {
+export default function TeamSection() {
     const team = [
         {
             name: "Alex Hermanovych",
@@ -37,7 +37,11 @@ export function TeamSection() {
                             {/* Image */}
                             <div className={`lg:col-span-2 ${index % 2 === 1 ? "lg:col-start-4" : ""}`}>
                                 <div className="relative aspect-[3/4] rounded overflow-hidden bg-slate-200">
-                                    <Image src={member.image || "/placeholder.svg"} alt={member.name} fill className="object-cover" />
+                                    <img
+                                        src={member.image || "/placeholder.svg"}
+                                        alt={member.name}
+                                        className="w-full h-full object-cover"
+                                    />
                                 </div>
                             </div>
 
@@ -51,10 +55,10 @@ export function TeamSection() {
                                     <p className="text-slate-600 leading-relaxed">{member.bio}</p>
                                     {member.email && (
                                         <div className="flex items-center gap-2 pt-4">
-                                            <Mail className="w-4 h-4 text-slate-400" />
-                                            <a
-                                                href={`mailto:${member.email}`}
-                                                className="text-slate-900 hover:text-slate-700 font-medium transition-colors"
+                                            <Mail className="w-4 h-4 text-slate-400"/>
+
+                                            <a href={`mailto:${member.email}`}
+                                               className="text-slate-900 hover:text-slate-700 font-medium transition-colors"
                                             >
                                                 {member.email}
                                             </a>

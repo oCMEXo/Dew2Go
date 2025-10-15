@@ -1,5 +1,4 @@
-import React from "react"
-import { Button } from "../Component/ui/button.tsx"
+import Button  from "../Component/ui/button"
 import { ArrowRight } from "lucide-react"
 
 export function CTASection() {

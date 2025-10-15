@@ -1,4 +1,4 @@
-import React, { Suspense, ReactNode, useEffect } from "react"
+import { Suspense, ReactNode, useEffect } from "react"
 import "./globals.css"
 
 interface RootLayoutProps {

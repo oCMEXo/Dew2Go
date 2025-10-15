@@ -1,10 +1,11 @@
-import { Header } from "../Component/header.tsx"
-import { HeroSection } from "../Component/hero-section.tsx"
-import { AboutSection } from "../Component/about-section.tsx"
-import { ServicesSection } from "../Component/services-section.tsx"
-import { TeamSection } from "../Component/team-section.tsx"
-import { ContactSection } from "../Component/contact-section.tsx"
-import { Footer } from "../Component/footer.tsx"
+import  Header  from "../Component/header"
+import HeroSection  from "../Component/hero-section"
+import  AboutSection  from "../Component/about-section"
+import  ServicesSection  from "../Component/services-section"
+import  TeamSection  from "../Component/team-section"
+import ContactSection  from "../Component/contact-section"
+import  Footer  from "../Component/footer"
+
 
 export default function Home() {
     return (

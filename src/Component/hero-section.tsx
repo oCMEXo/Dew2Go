@@ -1,7 +1,6 @@
-import React from "react"
-import { Button } from "../Components/ui/button"
+import  Button  from "../Component/ui/button"
 
-export function HeroSection() {
+export default function HeroSection() {
     return (
         <section className="relative bg-white pt-16">
             <div className="container mx-auto px-6 lg:px-12 py-20 lg:py-28">
